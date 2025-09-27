@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome with localhost debugging",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--disable-web-security",
+                "--disable-features=VizDisplayCompositor",
+                "--allow-running-insecure-content"
+            ]
+        },
+        {
+            "name": "Launch Edge with localhost debugging",
+            "type": "msedge",
+            "request": "launch",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--disable-web-security",
+                "--allow-running-insecure-content"
+            ]
+        }
+    ]
+}
