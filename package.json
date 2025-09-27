@@ -1,0 +1,28 @@
+{
+  "name": "gpmoirang-network-fix",
+  "version": "1.0.0",
+  "description": "Demonstrates and fixes network connectivity issues between VS Code and browser environments",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --dev",
+    "serve": "http-server . -p 8080 --cors -c-1",
+    "live": "live-server --port=5500 --host=127.0.0.1 --cors"
+  },
+  "keywords": [
+    "vscode",
+    "network",
+    "cors",
+    "development-server"
+  ],
+  "author": "gpmarup",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.0.0",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.mount": [
+        ["/api", "./api"]
+    ],
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "baseUri": "/api",
+        "proxyUri": "http://localhost:3000/api"
+    },
+    "liveServer.settings.cors": true,
+    "liveServer.settings.https": {
+        "enable": false,
+        "cert": "",
+        "key": "",
+        "passphrase": ""
+    },
+    "liveServer.settings.file": "index.html",
+    "liveServer.settings.wait": 1000,
+    "liveServer.settings.fullReload": false,
+    "liveServer.settings.useLocalIp": false,
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ]
+}
